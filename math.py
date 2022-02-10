@@ -10,6 +10,6 @@ print (','.join(nl))
 
 nl=[]
 for x in range (1200, 1900):
-    if (x%20==0) and (x%10==0):
+    if (x%20==0) and (x%35==0):
         nl.append(str(x))
         print (','.join(nl))
